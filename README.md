@@ -1,49 +1,43 @@
-### Description
+# Student Task Manager (Java)
 
-I made a program to help students keep track of their daily tasks and deadlines. It is a Java-based application that you can use in the command line.
+##  Description
 
-## Features
+This is a simple Java-based CLI application that helps students manage their daily tasks and deadlines.
 
-* You can add tasks to the program
+##  Features
 
-* You can view all the tasks you have added
+* Add new tasks
+* View all tasks
+* Mark tasks as completed
+* Delete tasks
+* Persistent storage using file handling
 
-* You can mark tasks as completed when you finish them
+##  Technologies Used
 
-* You can delete tasks that you do not need anymore
-
-* The program saves your tasks to a file so you do not lose them
-
-## Technologies Used
-
-* I used Java to make the program
-
-* I used file handling to save the tasks to a file
-
-* I used object-oriented programming concepts to make the program work
+* Java
+* File Handling
+* OOP Concepts
 
 ## How to Run
 
-1. First you need to compile the program. You can do this by typing:
+1. Compile the program:
 
 javac TaskManager.java
 
-2. Then you can run the program by typing:
+2. Run the program:
 
 java TaskManager
 
-## File Storage
+##  File Storage
 
-The program saves your tasks to a file called `tasks.txt`.
+Tasks are stored in a file named `tasks.txt`.
 
-## Future Improvements
+##  Future Improvements
 
-* I want to make a version of the program with a graphical user interface using Java Swing
+* GUI version using Java Swing
+* Notifications/reminders
+* Priority levels
 
-* I want to add notifications and reminders to help you stay on track
-
-* I want to add priority levels so you can focus on the important tasks
-
-## Author
+##  Author
 
 Samitha M
